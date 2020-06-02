@@ -1,5 +1,7 @@
 body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+    
+}
 
 .galleryFilters {
   margin: 20px auto;
@@ -28,7 +30,7 @@ body {
       box-shadow: 0px 0px 5px #610f7f; }
 
 .galleryContainer .thumbnail {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
   border-radius: 5px; }
   .galleryContainer .thumbnail img {
@@ -38,14 +40,15 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); }
   .galleryContainer .thumbnail .item-desc {
     position: absolute;
+    width: inherit;
     top: 10px;
-    right: 15px;
-    display: inline-block;
-    text-transform: uppercase;
+    right: 0px;
+    /* display: inline-block; */
     color: #ffffff;
-    background-color: #610f7f;
-    padding: 5px 10px;
-    border-radius: 5px; }
+    background-color:rgba(209, 201, 201, 0.822);
+     padding: 5px 14px;
+    border-radius: 6px;
+   }
 
 .group {
   display: grid !important;
