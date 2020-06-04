@@ -26,7 +26,3 @@ function filterFunction() {
 		}
 	}
 }
-
-function click () {
-	style.display="none"
-}
