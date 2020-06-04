@@ -26,3 +26,19 @@ function filterFunction() {
 		}
 	}
 }
+
+function click() {
+	alert("Clicked!");
+	c = document.getElementsByClassName("secondbtn");
+	c.style.display="block";
+
+}
+
+$(document).ready(function () {
+
+	var c = document.querySelector(".secondbtn");
+	$('ul.container-fluid li.box').click(function (e) {
+		c.style.opacity = 100;
+
+	});
+});

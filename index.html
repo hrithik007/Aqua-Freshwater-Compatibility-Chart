@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<style></style>
+
 
 
 <body>
@@ -18,46 +18,63 @@
 		
 			<div class="  col-lg-10  galleryFilters btn-group">
 				<ul class="row container-fluid filterList group">
-					<button class="btn btn-sucess  btn-lg dropdown-toggle type="button" onmousedown="this.size=5;" onfocusout="this.size=1;" data-toggle="dropdown"">Select</button>
+					<button  class="btn btn-sucess  btn-lg dropdown-toggle type="button"   onmousedown="this.size=5;" onfocusout="this.size=1;" data-toggle="dropdown"">Select</button>
 					<div class="dropdown-menu edit" id="dropdownItem" aria-labelledby="dropdownMenuButton">
 						<input type="text" placeholder="Search" class="searchBar form-control" name="search" id="myInput" autocomplete="on" onkeyup="filterFunction()">
-					<li class=" dropdown-item filterListItem item btn " data-filter="all">ALL</li>
-					<li class=" dropdown-item filterListItem item btn " data-filter="Malavian">Malavian Cichlids</li>
-					<li class=" dropdown-item filterListItem item btn " data-filter="Tanganyikan">Tanganyikan Cichlids</li>
-					<li class=" dropdown-item filterListItem item btn " data-filter="Misc">Misc.African Cichlids</li>
-					<li class=" dropdown-item filterListItem item btn " data-filter="New">New World Cichlids</li>
-							<li class=" dropdown-item filterListItem item btn " data-filter="Angelfish">Angelfish</li>
-								<li class=" dropdown-item filterListItem item btn " data-filter="Barbs">Barbs</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Bettas">Bettas</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Cory Cats">Cory Cats</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Danios / Minnows">Danios / Minnows</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Discus">Discus</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Fancy Goldfish">Fancy Goldfish</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Gouramis">Gouramis</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Guppies">Guppies<li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Hatchets">Hatchets</li>
-	   								<li class=" dropdown-item filterListItem item btn " data-filter="Killifish">Killifish</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Larger CatLarger fish">Larger CatLarger fish</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Loaches">Loaches</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Mollies">Mollies</li>
-									<li class=" dropdown-item filterListItem item btn " data-filter="Platies">Platies</li>
-								    <li class=" dropdown-item filterListItem item btn " data-filter="plecos">plecos</li>
-								   <li class=" dropdown-item filterListItem item btn " data-filter="Rainbowfish">Rainbowfish</li>
-								  <li class=" dropdown-item filterListItem item btn " data-filter="Rasboras">Rasboras</li>
-											   <li class=" dropdown-item filterListItem item btn " data-filter="Shark">Shark</li>
-												<li class=" dropdown-item filterListItem item btn " data-filter="Sukermouth Catfish">Sukermouth Catfish</li>
-												<li class=" dropdown-item filterListItem item btn " data-filter="Swordtails">Swordtails</li>
-													<li class=" dropdown-item filterListItem item btn " data-filter="Tetras">Tetras</li>
-													<li class=" dropdown-item filterListItem item btn " data-filter="Misc.Fish">Misc.Fish</li>
-													<li class=" dropdown-item filterListItem item btn " data-filter="Invertebrates">Invertebrates</li>
-												   <li class=" dropdown-item filterListItem item btn " data-filter="Brackish Fish">Brackish Fish</li>
-													<li class=" dropdown-item filterListItem item btn " data-filter="Pond Fish">Pond Fish</li>
-													<li class=" dropdown-item filterListItem item btn " data-filter="Freshwater Plants">Freshwater Plants</li>
+					<li class=" dropdown-item filterListItem item btn " data-filter="all" >ALL</li>
+					<li class=" dropdown-item box filterListItem item btn " data-filter="Malavian">Malavian Cichlids</li>
+					<li class=" dropdown-item box filterListItem item btn " data-filter="Tanganyikan">Tanganyikan Cichlids</li>
+					<li class=" dropdown-item box filterListItem item btn " data-filter="Misc">Misc.African Cichlids</li>
+					<li class=" dropdown-item box filterListItem item btn " data-filter="New">New World Cichlids</li>
+							<li class=" dropdown-item box filterListItem item btn " data-filter="Angelfish">Angelfish</li>
+								<li class=" dropdown-item box filterListItem item btn " data-filter="Barbs">Barbs</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Bettas">Bettas</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Cory Cats">Cory Cats</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Danios / Minnows">Danios / Minnows</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Discus">Discus</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Fancy Goldfish">Fancy Goldfish</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Gouramis">Gouramis</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Guppies">Guppies<li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Hatchets">Hatchets</li>
+	   								<li class=" dropdown-item box filterListItem item btn " data-filter="Killifish">Killifish</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Larger CatLarger fish">Larger CatLarger fish</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Loaches">Loaches</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Mollies">Mollies</li>
+									<li class=" dropdown-item box filterListItem item btn " data-filter="Platies">Platies</li>
+								    <li class=" dropdown-item box filterListItem item btn " data-filter="plecos">plecos</li>
+								   <li class=" dropdown-item box filterListItem item btn " data-filter="Rainbowfish">Rainbowfish</li>
+								  <li class=" dropdown-item box filterListItem item btn " data-filter="Rasboras">Rasboras</li>
+											   <li class=" dropdown-item box filterListItem item btn " data-filter="Shark">Shark</li>
+												<li class=" dropdown-item box filterListItem item btn " data-filter="Sukermouth Catfish">Sukermouth Catfish</li>
+												<li class=" dropdown-item box filterListItem item btn " data-filter="Swordtails">Swordtails</li>
+													<li class=" dropdown-item box filterListItem item btn " data-filter="Tetras">Tetras</li>
+													<li class=" dropdown-item box filterListItem item btn " data-filter="Misc.Fish">Misc.Fish</li>
+													<li class=" dropdown-item box filterListItem item btn " data-filter="Invertebrates">Invertebrates</li>
+												   <li class=" dropdown-item box filterListItem item btn " data-filter="Brackish Fish">Brackish Fish</li>
+													<li class=" dropdown-item box filterListItem item btn " data-filter="Pond Fish">Pond Fish</li>
+													<li class=" dropdown-item box filterListItem item btn " data-filter="Freshwater Plants">Freshwater Plants</li>
 												
 				
 						</div>
 				</ul>
 			
+	<ul class=" row container-fluid filterList group" id="show">
+		<button class="secondbtn btn btn-sucess  btn-lg dropdown-toggle type=" button" onmousedown="this.size=5;"
+			onfocusout="this.size=1;" data-toggle="dropdown"">Select Cat</button>
+						<div class=" dropdown-menu edit2" id="dropdownItem" aria-labelledby="dropdownMenuButton">
+			<!-- <input type="text" placeholder="Search" class="searchBar form-control" name="search" id="myInput"
+				autocomplete="on" onkeyup="filterFunction()"> -->
+			<li class=" dropdown-item box filterListItem item btn " data-filter="Y">Y</li>
+			<li class=" dropdown-item box filterListItem item btn " data-filter="C">C</li>	
+			</div>
+	</ul>
+			
+				<!-- <label for="cars">Choose</label>
+			
+				<select name="cars" id="cars">
+					<option value="Y" style="color: green;">Y</option>
+					<option value="C" style="color: orange;">C</option>
+				</select> -->
 				<!-- <input type="text" placeholder="Search" class="searchBar form-control" name="search" data-search> -->
 			</div>
 
@@ -68,71 +85,71 @@
 		<div class="filtr-container galleryContainer">
 			<!-- item -->
 		
-			<div class="col-4 col-md-3  filtr-item thumbnail" data-category="all,Malavian" data-sort="">
+			<div class="col-4 col-md-3  filtr-item thumbnail" data-category="all,Malavian,Y" data-sort="">
 				<img src="images/animals/animals (1).jpg" alt="">
-				<span class="item-desc">Malavian   Cichlids (Y)</span>
+				<span class="item-desc">Malavian   Cichlids</span>
 			</div>
 			
 <!-- <hr color="purple" style="width: 90%; height: 1px; "> -->
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="cat">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="cat">
 				<img src="images/animals/animals (4).jpg" alt="">
-				<span class="item-desc">Barbs (C)</span>
+				<span class="item-desc">Barbs</span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Cory Cats (C)</span>
+				<span class="item-desc">Cory Cats</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,nature" data-sort="dessert">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,nature,C" data-sort="dessert">
 				<img src="images/nature/nature (2).jpg" alt="">
 				<span class="item-desc">Desert</span>
 			</div>
 
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Freshwater Plants (C)</span>
+				<span class="item-desc">Freshwater Plants</span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Invertebrates (C)</span>
+				<span class="item-desc">Invertebrates </span>
 			</div>
 
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Larger Catfish (C)</span>
+				<span class="item-desc">Larger Catfish </span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Loaches (C)</span>
+				<span class="item-desc">Loaches </span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="Malavian">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="Malavian">
 				<img src="images/animals/animals (2).jpg" alt="">
-				<span class="item-desc">Misc.African Cichlids(C)</span>
+				<span class="item-desc">Misc.African Cichlids</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Misc. Fish (C)</span>
+				<span class="item-desc">Misc. Fish</span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (3).jpg" alt="">
-				<span class="item-desc">NewWorld Cichlids(C)</span>
+				<span class="item-desc">NewWorld Cichlids</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Sharks (C)</span>
+				<span class="item-desc">Sharks</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
-				<span class="item-desc">Sukermouth Catfish(C)</span>
+				<span class="item-desc">Sukermouth Catfish</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian" data-sort="">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="">
 				<img src="images/animals/animals (1).jpg" alt="">
-				<span class="item-desc">Tanganyikan Cichlids(C)</span>
+				<span class="item-desc">Tanganyikan Cichlids</span>
 			</div>
 			<!-- item -->
 
