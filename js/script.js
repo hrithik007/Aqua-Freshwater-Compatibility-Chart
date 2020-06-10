@@ -35,10 +35,15 @@ function click() {
 }
 
 $(document).ready(function () {
-
+	$(".filtr-container").addClass("d-none");
 	var c = document.querySelector(".secondbtn");
+	var k = document.querySelector(".second");
+	var j = document.querySelector(".display");
 	$('ul.container-fluid li.box').click(function (e) {
+		$(".filtr-container").removeClass("d-none");
+	//	$(this).addClass("d-block");
 		c.style.opacity = 100;
-
+		k.style.opacity = 100;
+		j.style.opacity = 100; 
 	});
 });

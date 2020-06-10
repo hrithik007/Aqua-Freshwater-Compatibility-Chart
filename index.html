@@ -14,14 +14,14 @@
 <body>
 
 
-	<div class=" row container-fluid">
+	<div class=" ui main text container row container-fluid">
 		
 			<div class="  col-lg-10  galleryFilters btn-group">
 				<ul class="row container-fluid filterList group">
 					<button  class="btn btn-sucess  btn-lg dropdown-toggle type="button"   onmousedown="this.size=5;" onfocusout="this.size=1;" data-toggle="dropdown"">Select</button>
 					<div class="dropdown-menu edit" id="dropdownItem" aria-labelledby="dropdownMenuButton">
 						<input type="text" placeholder="Search" class="searchBar form-control" name="search" id="myInput" autocomplete="on" onkeyup="filterFunction()">
-					<li class=" dropdown-item filterListItem item btn " data-filter="all" >ALL</li>
+					<!-- <li class=" dropdown-item filterListItem item btn " data-filter="all" >ALL</li> -->
 					<li class=" dropdown-item box filterListItem item btn " data-filter="Malavian">Malavian Cichlids</li>
 					<li class=" dropdown-item box filterListItem item btn " data-filter="Tanganyikan">Tanganyikan Cichlids</li>
 					<li class=" dropdown-item box filterListItem item btn " data-filter="Misc">Misc.African Cichlids</li>
@@ -57,18 +57,16 @@
 				
 						</div>
 				</ul>
-			
+<!-- 			
 	<ul class=" row container-fluid filterList group" id="show">
 		<button class="secondbtn btn btn-sucess  btn-lg dropdown-toggle type=" button" onmousedown="this.size=5;"
 			onfocusout="this.size=1;" data-toggle="dropdown"">Select Cat</button>
 						<div class=" dropdown-menu edit2" id="dropdownItem" aria-labelledby="dropdownMenuButton">
-			<!-- <input type="text" placeholder="Search" class="searchBar form-control" name="search" id="myInput"
-				autocomplete="on" onkeyup="filterFunction()"> -->
 			<li class=" dropdown-item box filterListItem item btn " data-filter="Y">Y</li>
 			<li class=" dropdown-item box filterListItem item btn " data-filter="C">C</li>	
 			</div>
 	</ul>
-			
+			 -->
 				<!-- <label for="cars">Choose</label>
 			
 				<select name="cars" id="cars">
@@ -82,72 +80,103 @@
 
 
 		<div>
-		<div class="filtr-container galleryContainer">
+		<div class="filtr-container galleryContainer d">
 			<!-- item -->
+	
+
+<div class="secondbtn"><h4>The Y category</h4></div>
+			<div class="Y" >
+
+							<div class="col-4 col-md-3 col-lg-4 filtr-item thumbnail" data-category="Malavian,Y" data-sort="">
+								<img src="images/animals/animals (1).jpg" alt="">
+							
+								<span class="col-md-3 col-lg-4 item-desc" style="position: initial;">Malavian  Cichlids</span>
+							</div>
+
+				
+
+
+			
+
+<!-- <hr color="purple" style="width: 90%; height: 1px; "> -->
+		<div class="col-4 col-md-3  col-lg-4 filtr-item thumbnail" data-category="Malavian,C" data-sort="cat">
+			<img src="images/animals/animals (4).jpg" alt="">
+			<span class="item-desc" style="position: initial;">plecos</span>
+		</div>
+
+
 		
-			<div class="col-4 col-md-3  filtr-item thumbnail" data-category="all,Malavian,Y" data-sort="">
-				<img src="images/animals/animals (1).jpg" alt="">
-				<span class="item-desc">Malavian   Cichlids</span>
+		
+		<div class="col-4 col-md-3  col-lg-4 filtr-item thumbnail"data-category="Malavian,C" data-sort="dog">
+			<img src="" alt="">
+			<span class=""></span>
+		</div>
+		
+</div>
+		<div class="second" >
+				<h4><span>The C category</span></h4>
 			</div>
 			
-<!-- <hr color="purple" style="width: 90%; height: 1px; "> -->
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="cat">
+
+
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="cat">
+
 				<img src="images/animals/animals (4).jpg" alt="">
 				<span class="item-desc">Barbs</span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Cory Cats</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,nature,C" data-sort="dessert">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="nature,C" data-sort="dessert">
 				<img src="images/nature/nature (2).jpg" alt="">
 				<span class="item-desc">Desert</span>
 			</div>
 
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Freshwater Plants</span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Invertebrates </span>
 			</div>
 
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Larger Catfish </span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Loaches </span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="Malavian">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="Malavian">
 				<img src="images/animals/animals (2).jpg" alt="">
 				<span class="item-desc">Misc.African Cichlids</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Misc. Fish</span>
 			</div>
 
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (3).jpg" alt="">
 				<span class="item-desc">NewWorld Cichlids</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Sharks</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="dog">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="dog">
 				<img src="images/animals/animals (5).jpg" alt="">
 				<span class="item-desc">Sukermouth Catfish</span>
 			</div>
-			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="all,Malavian,C" data-sort="">
+			<div class="col-4 col-md-3 filtr-item thumbnail" data-category="Malavian,C" data-sort="">
 				<img src="images/animals/animals (1).jpg" alt="">
 				<span class="item-desc">Tanganyikan Cichlids</span>
 			</div>
