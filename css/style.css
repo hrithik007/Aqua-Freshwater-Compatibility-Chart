@@ -92,14 +92,14 @@ ul {
 
 .secondbtn {
   opacity: 0;
-  padding-left: 35%;
+  text-align: center;
   margin-bottom: 1%;
   border: 2px solid #4CAF50;
 }
 
 .second {
   margin-top: 12%;
- padding-left: 35%;
+ text-align: center;
   opacity: 0;
   border: 2px solid yellowgreen;
 }
