@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var filterizd = $(".filtr-container").filterizr({});
+	var filterizd = $(".filtr-container2").filterizr({});
 
 	$(".filterListItem").on('click',function(){
 		$(".filterListItem").removeClass("active");
