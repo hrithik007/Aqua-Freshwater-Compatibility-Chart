@@ -42,7 +42,7 @@ body {
     max-width: 100%;
     border-radius: 5px;
     box-sizing: border-box;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);  */
+
   }
   .galleryContainer .thumbnail .item-desc {
     position: absolute;
@@ -71,7 +71,7 @@ ul {
 
 .edit {
   height: 300px;
-  width: auto;
+  width: inherit;
   overflow-y: auto;
   /* overflow: scroll; */
 }
