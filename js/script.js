@@ -5,13 +5,18 @@ $(document).ready(function(){
 	$(".filterListItem").on('click',function(){
 		$(".filterListItem").removeClass("active");
 		$(this).addClass("active");
+		txt2 = this.innerText
+		txt = document.getElementById("myButton");
+	    txt.innerText = txt2;
+
+
 	});
 });
 
+
 function myFunction() {
 	document.getElementById("myDropdown").classList.toggle("show");
-}
-
+} 
 function filterFunction() {
 	var input, filter, ul, li, a, i;
 	input = document.getElementById("myInput");
@@ -37,14 +42,20 @@ function click() {
 
 $(document).ready(function () {
 	$(".filtr-container").addClass("d-none");
+	$(".filtr-container2").addClass("d-none");
 	var c = document.querySelector(".secondbtn");
 	var k = document.querySelector(".second");
 	var j = document.querySelector(".display");
 	$('ul.container-fluid li.box').click(function (e) {
 		$(".filtr-container").removeClass("d-none");
-	//	$(this).addClass("d-block");
+		$(".filtr-container2").removeClass("d-none");
 		c.style.opacity = 100;
 		k.style.opacity = 100;
 		j.style.opacity = 100; 
 	});
 });
+
+
+
+
+
