@@ -107,6 +107,9 @@ ul {
 .display {
   opacity: none;
 }
+.btn-sucess {
+  padding-left: 20px;
+}
 
 
 
@@ -165,3 +168,17 @@ ul {
     border-radius: 10px;
    }
 
+
+   .header1 {
+     text-align: center;
+   }
+
+
+   .header2 {
+     text-align: center;
+   }
+
+   #txt3 {
+         font-weight: 700;
+         font-size: large;
+   }

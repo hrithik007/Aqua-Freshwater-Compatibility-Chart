@@ -8,8 +8,8 @@ $(document).ready(function(){
 		txt2 = this.innerText
 		txt = document.getElementById("myButton");
 	    txt.innerText = txt2;
-
-
+		header = document.getElementById("txt3")
+		header.innerText = txt2;
 	});
 });
 
@@ -43,12 +43,14 @@ function click() {
 $(document).ready(function () {
 	$(".filtr-container").addClass("d-none");
 	$(".filtr-container2").addClass("d-none");
+	$(".header2").addClass("d-none");
 	var c = document.querySelector(".secondbtn");
 	var k = document.querySelector(".second");
 	var j = document.querySelector(".display");
 	$('ul.container-fluid li.box').click(function (e) {
 		$(".filtr-container").removeClass("d-none");
 		$(".filtr-container2").removeClass("d-none");
+		$(".header2").removeClass("d-none");
 		c.style.opacity = 100;
 		k.style.opacity = 100;
 		j.style.opacity = 100; 
