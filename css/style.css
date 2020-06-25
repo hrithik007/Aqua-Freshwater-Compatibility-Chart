@@ -49,8 +49,8 @@ body {
 
     right: 11px;
     left: 10px;
-    color: #ffffff;
-    background-color:rgba(209, 201, 201, 0.822);
+    color:rgba(209, 201, 201, 0.01);
+    background-color:rgba(209, 201, 201, 0.01);
      padding: 5px 14px;
     border-radius: 10px;
    }
@@ -162,14 +162,15 @@ ul {
 
     right: 11px;
     left: 10px;
-    color: #ffffff;
-    background-color:rgba(209, 201, 201, 0.822);
+    color:rgba(209, 201, 201, 0.01);
+    background-color:rgba(209, 201, 201, 0.01);
      padding: 5px 14px;
     border-radius: 10px;
    }
 
 
    .header1 {
+     padding-top: 5px;
      text-align: center;
    }
 
@@ -180,5 +181,5 @@ ul {
 
    #txt3 {
          font-weight: 700;
-         font-size: large;
+         font-size: larger;
    }
